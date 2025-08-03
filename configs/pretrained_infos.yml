@@ -1,0 +1,26 @@
+foldingchair:
+  model_path: output/pretrained/foldingchair/102255/sequential_steps_5_full_48_0.002/71a091eb-7
+refrigerator:
+  model_path: output/pretrained/refrigerator/10905/sequential_steps_5_full_48_0.001/763f9407-3
+laptop:
+  model_path: output/pretrained/laptop/10211/sequential_steps_5_full_48_0.002/f8638fd8-5
+oven:
+  model_path: output/pretrained/oven/101917/sequential_steps_5_full_48_0.002/1c746bfc-6
+scissor:
+  model_path: output/pretrained/scissor/11100/sequential_steps_5_full_48_0.002/730c0a39-7
+stapler:
+  model_path: output/pretrained/stapler/103111/sequential_steps_5_full_48_0.002/0c68c771-f
+usb:
+  model_path: output/pretrained/usb/100109/sequential_steps_5_full_48_0.002/7fd39ac6-1
+washer:
+  model_path: output/pretrained/washer/103776/sequential_steps_5_full_48_0.002/5eb48c64-1
+knife:
+  model_path: output/pretrained/knife/101085/sequential_steps_5_full_48_0.002/4c113d1a-5
+storage:
+  model_path: output/pretrained/storage/45135/sequential_steps_5_full_48_0.002/2df041bd-2
+storage-2:
+  model_path: output/pretrained/storage/47254/random_steps_5_full_48_0.002/bf99b425-d
+refrigerator-2:
+  model_path: output/pretrained/refrigerator/10489/random_steps_5_full_48_0.002/df00cc6e-f
+storage-3:
+  model_path: output/pretrained/storage/45503/random_steps_5_full_48_0.002/078d17ff-6

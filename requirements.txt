@@ -1,0 +1,19 @@
+# for training
+tensorboard
+tqdm
+open3d
+plyfile
+scipy
+opencv-python
+omegaconf
+
+# for data generation
+trimesh
+pyglet==1.5.15
+lxml
+imageio
+openexr
+
+# for control
+scikit-optimize
+transformers==4.46.3

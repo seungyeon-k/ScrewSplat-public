@@ -1,0 +1,40 @@
+# object information
+# Choose from: foldingchair, refrigerator, laptop, oven, scissor, stapler, usb, 
+#              washer, knife, storage, storage-2, refrigerator-2, storage-3
+object_classes: 
+  - foldingchair
+  - refrigerator
+  - laptop
+  - oven
+  - scissor
+  - stapler
+  - usb
+  - washer
+  - knife
+  - storage
+
+# camera information
+camera_info:
+  view_name: full_48
+  radius: 1.0
+  num_phi: 4
+  phi_range: [10.0, 60.0] # degree
+  num_theta: 12
+  theta_range: [-180.0, 180.0] # degree
+
+# camera intrinsics
+camera_intr:
+  image_size: [480, 640]
+  intrinsic: [606.1148681640625, 605.2857055664062, 325.19329833984375, 246.53085327148438] # fx, fy, cx, cy
+
+# rendering information
+render_info:
+  blender_root: ~/blender-4.0.2-linux-x64/./blender
+
+# dataset information
+dataset_info: 
+  offset: 0.0
+  steps: 5
+  mode: sequential
+  split_list: [train, test] # Choose from train, test
+

@@ -1,0 +1,30 @@
+# object information
+# Choose from: refrigerator, laptop, oven, scissor, stapler, usb, washer,
+#              knife, storage, storage-2, refrigerator-2, storage-3
+object_classes: [knife, storage, storage-2]   # List of object class names to render
+
+# camera information
+camera_info:
+  view_name: full_48        # Name of predefined camera view configuration
+  radius: 1.0               # Distance from the camera to the object center
+  num_phi: 4                # Number of vertical angles (elevation samples)
+  phi_range: [10.0, 60.0]   # Range of elevation angles (in degrees)
+  num_theta: 12             # Number of horizontal angles (azimuth samples)
+  theta_range: [-180.0, 180.0] # Range of azimuth angles (in degrees)
+
+# camera intrinsics
+camera_intr:
+  image_size: [480, 640]    # Image height and width (in pixels)
+  intrinsic: [606.1148681640625, 605.2857055664062, 325.19329833984375, 246.53085327148438] # fx, fy, cx, cy
+
+# rendering information
+render_info:
+  blender_root: ~/blender-4.0.2-linux-x64/./blender # Path to the Blender executable
+
+# dataset information
+dataset_info: 
+  offset: 0.0               # Initial joint displacement (radians or normalized value)
+  steps: 5                  # Number of articulation steps to sample
+  mode: sequential          # Data generation mode: 'sequential' or 'random'
+  split_list: [train, test] # Dataset splits to generate (e.g., train/test)
+

@@ -1,0 +1,52 @@
+# steps
+max_art_indices: 5
+
+# observation camera settings
+num_phi: 3
+phi_range: [0.5235987756, 1.0471975512]
+num_theta: 8
+theta_range: [-1.0471975512, 1.0471975512]
+radius: 0.85
+# center: [0.55, 0.0, 0.243]
+center: [0.55, 0.0, 0.243]
+
+# observation settings
+ip: 192.168.0.2
+port: 7133
+background_sam: True
+save_depth_imgs: True
+
+# recognition settings
+parsimony_weight: 0.005
+
+# manipulation settings
+# offset_ee_angle: -0.33
+offset_ee_angle: -0.5
+
+# experiment settings (total)
+task_list: ['observation', 'recognition', 'manipulation']
+
+# experiment settings (only observation)
+# task_list: ['observation']
+
+# experiment settings (only recognition)
+# task_list: ['recognition']
+# precollected: datasets/real_world/laptop_real/20250428-1335/hand_steps_5_partial_16
+
+# experiment settings (only manipulation)
+# task_list: ['manipulation']
+# prerecognized: output/real_world/laptop_real/20250428-1335/hand_steps_5_partial_16_0.005
+
+# experiment settings (observation and recognition)
+# task_list: ['observation', 'recognition']
+
+# experiment settings (recognition and manipulation)
+# task_list: ['recognition', 'manipulation']
+# precollected: datasets/real_world/laptop_real/20250428-1335/hand_steps_5_partial_16
+
+# precollected: datasets/real_world/laptop_real/20250428-1335/hand_steps_5_partial_16
+# prerecognized: output/real_world/laptop_real/20250428-1335/hand_steps_5_partial_16_0.005
+# precollected: datasets/real_world/storage_real/20250428-2137/hand_steps_5_partial_16
+# prerecognized: output/real_world/storage_real/20250428-2137/hand_steps_5_partial_16_0.005
+# precollected: datasets/real_world/book_real/20250429-0007/hand_steps_5_partial_16
+# prerecognized: output/real_world/book_real/20250429-0007/hand_steps_5_partial_16_0.005

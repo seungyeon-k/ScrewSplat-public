@@ -1,0 +1,44 @@
+foldingchair:
+  model_id: 102255
+  scale: 0.26
+refrigerator:
+  model_id: 10905
+  scale: 0.25
+laptop:
+  model_id: 10211
+  scale: 0.25
+oven:
+  model_id: 101917
+  scale: 0.23
+scissor:
+  model_id: 11100
+  scale: 0.25
+stapler:
+  model_id: 103111
+  scale: 0.20
+  joint_indices: [1]
+usb:
+  model_id: 100109
+  scale: 0.25
+  joint_limits: [-0.8, 0.8]
+washer:
+  model_id: 103776
+  scale: 0.20
+  joint_indices: [0]
+  shadow_on: True
+knife:
+  model_id: 101085
+  scale: 0.19
+storage:
+  model_id: 45135
+  scale: 0.20
+  joint_indices: [0]
+storage-2:
+  model_id: 47254
+  scale: 0.22
+refrigerator-2:
+  model_id: 10489
+  scale: 0.25
+storage-3:
+  model_id: 45503
+  scale: 0.25
