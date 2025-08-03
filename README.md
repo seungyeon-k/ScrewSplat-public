@@ -2,7 +2,7 @@
 
 # <b>ScrewSplat</b> <br> An End-to-End Method for Articulated Object Recognition
 
-### Under Review
+### Conference on Robot Learning (CoRL) 2025
 
 [Seungyeon Kim](https://seungyeon-k.github.io/)<sup>1</sup>,
 Junsu Ha<sup>1</sup>,
@@ -12,7 +12,8 @@ Young Hun Kim<sup>1</sup>,
 <br>
 <sup>1</sup>Seoul National University, <sup>2</sup>MIT, 
 
-[Project Page]() | [Paper]() | Video 
+[Project Page](https://screwsplat.github.io/) 
+<!-- | Paper | Video  -->
 
 </div>
 
