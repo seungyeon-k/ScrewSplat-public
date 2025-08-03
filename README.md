@@ -1,6 +1,6 @@
 <div align="center">
 
-# <b>ScrewSplat</b> <br> An End-to-End Method for Articulated Object Recognition
+# ScrewSplat: An End-to-End Method for Articulated Object Recognition
 
 ### Conference on Robot Learning (CoRL) 2025
 
