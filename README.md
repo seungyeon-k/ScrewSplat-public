@@ -20,7 +20,8 @@ Young Hun Kim<sup>1</sup>,
 > TL;DR: This paper proposes a novel framework for recognizing and manipulating articulated objects.
 
 ## Preview
-TBA
+<I>ScrewSplat begins by randomly initializing 3D Gaussians and screw axes, which are then jointly optimized to recover the object’s part-wise 3D geometry and its underlying kinematic structure. </I>
+![intro](./assets/intro.gif)
 
 ## Requirements
 
