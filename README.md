@@ -144,5 +144,10 @@ For more details, refer to the ``control/__init__.py`` file and the configuratio
 ## Citation
 If you found this repository useful in your research, please consider citing:
 ```
-
+@article{kim2025screwsplat,
+  title={ScrewSplat: An End-to-End Method for Articulated Object Recognition},
+  author={Kim, Seungyeon and Ha, Junsu and Kim, Young Hun and Lee, Yonghyeon and Park, Frank C},
+  journal={arXiv preprint arXiv:2508.02146},
+  year={2025}
+}
 ```
